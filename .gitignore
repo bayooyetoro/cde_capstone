@@ -1,0 +1,10 @@
+credentials/
+.venv
+.git
+__pycache__/
+webserver.config
+airflow.cfg
+airflow.db
+airflow.-webserver.pid
+airflow_setting.yaml
+terraform/
