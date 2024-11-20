@@ -10,11 +10,8 @@
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
 6. [Usage](#usage)
-7. [Directory Structure](#directory-structure)
-8. [DBT Data Models](#dbt-data-models)
-9. [Screenshots](#screenshots)
-10. [Future Enhancements](#future-enhancements)
-11. [License](#license)
+7. [DBT Data Models](#dbt-data-models)
+8. [Screenshots](#screenshots)
 
 ---
 
@@ -143,22 +140,3 @@ Ensure you have the following installed:
     - Verify the raw, dimension, and fact tables in Snowflake using SQL queries.
 
 ---
-
-## **Directory Structure**
-
-```plaintext
-project/
-├── dags/                  # Airflow DAGs
-│   └── s3_to_snowflake_combined_dag.py
-├── scripts/               # Python scripts for ETL
-│   ├── s3_to_snowflake.py
-├── creds/                 # Credentials (config.ini)
-├── dbt/                   # DBT project files
-│   ├── models/
-│   │   ├── dim_country.sql
-│   │   └── fact_population_by_region.sql
-│   └── dbt_project.yml
-├── docker/                # Docker-related files
-│   ├── Dockerfile
-│   └── requirements.txt
-└── README.md              # Project documentation
